@@ -20,15 +20,15 @@ void Gerente::trabajar()
     cout << "Estoy gerenciando clientes y sucursales" << endl;
 };
 
-void Gerente::setArea(string _area){
-    area = _area;
+ void Gerente::setArea(){
+   
 };
-void Gerente::setNombre(string _nombre){
-    nombre = _nombre;
+ void Gerente::setNombre(){
+     
 };
-void Gerente::setSalario(float _salario){
-    salario = _salario;
-};
+void Gerente::setSalario(){
+    
+ };
 void Gerente::setNumeroTrabajador(){};
 string Gerente::getArea()
 {

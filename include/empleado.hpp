@@ -4,27 +4,18 @@
 #include <iostream>
 using namespace std;
 class Empleado
-{
-private:
-    int numeroTrabajador;
-    string nombre;
-    float salario;
-    string area;
-
+{  
 public:
-    Empleado(string _nombre, float _salario, string _area, int _numero);
-    Empleado();
-    ~Empleado();
-    virtual void trabajar();
-    virtual void mensajeRecibido();
-    void setNombre(string _nombre);
-    virtual string getNombre();
-    void setSalario(float _salario);
-    virtual float getSalario();
-    void setArea(string _area);
-    virtual string getArea();
-    void setNumeroTrabajador();
-    virtual int getNumeroTrabajador();
+    virtual void trabajar()=0;
+    virtual void mensajeRecibido()=0;
+    virtual void setNombre()=0;
+    virtual string getNombre()=0;
+    virtual void setSalario()=0;
+    virtual float getSalario()=0;
+    virtual void setArea()=0;
+    virtual string getArea()=0;
+    virtual void setNumeroTrabajador()=0;
+    virtual int getNumeroTrabajador()=0;
 };
 
 #endif

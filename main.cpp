@@ -21,12 +21,7 @@ Se pide desarrollar una solución que Implemente lo solicitado, con las siguient
 #include "./include/gerente.hpp"
 #include "./include/vendedor.hpp"
 #include "./include/sucursal.hpp"
-// #include "./src/empleado.cpp"
-// #include "./src/encargado.cpp"
-// #include "./src/vendedor.cpp"
-// #include "./src/gerente.cpp"
-// #include "./src/sucursal.cpp"
-//#include <>
+
 using namespace std;
 int main(int argc, char const *argv[])
 {
@@ -47,5 +42,5 @@ int main(int argc, char const *argv[])
     delete empleado3;
     
 }
-//Vendedor(string _nombre, float _salario, string _area, int _numero);
+
 
