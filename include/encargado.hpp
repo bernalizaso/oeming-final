@@ -14,16 +14,16 @@ public:
     Encargado(string _nombre, float _salario, string _area, int _numero);
     Encargado();
     ~Encargado();
-    void mensajeRecibido();
-    void trabajar();
-    void setNombre(string _nombre);
-    string getNombre();
-    void setSalario(float _salario);
-    float getSalario();
-    void setArea(string _area);
-    string getArea();
-    void setNumeroTrabajador();
-    int getNumeroTrabajador();
+    void mensajeRecibido() override;
+    void trabajar()override;
+    void setNombre()override;
+    string getNombre()override;
+    void setSalario()override;
+    float getSalario()override;
+    void setArea()override;
+    string getArea()override;
+    void setNumeroTrabajador()override;
+    int getNumeroTrabajador()override;
 };
 
 #endif

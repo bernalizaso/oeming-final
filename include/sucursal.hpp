@@ -11,7 +11,7 @@ using namespace std;
 class Sucursal
 {
 private:
-    Empleado *listaEmpleados[50];
+    Empleado *listaEmpleados[3];
     int cantidadEmpleados=0;
 
 public:

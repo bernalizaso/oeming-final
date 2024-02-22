@@ -22,14 +22,14 @@ void Vendedor::trabajar()
     cout << "Estoy vendiendo cosas a clientes" << endl;
 };
 
-void Vendedor::setArea(string _area){
-    area = _area;
+void Vendedor::setArea(){
+    
 };
-void Vendedor::setNombre(string _nombre){
-    nombre = _nombre;
+void Vendedor::setNombre(){
+    
 };
-void Vendedor::setSalario(float _salario){
-    salario = _salario;
+void Vendedor::setSalario(){
+    
 };
 void Vendedor::setNumeroTrabajador(){};
 string Vendedor::getArea()

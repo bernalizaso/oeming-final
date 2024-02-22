@@ -44,7 +44,7 @@ int getCantidadEmpleados(int cantidadEmpleados)
 }
 void Sucursal::addEmpleado(Empleado *_empleado)
 {
-    if (cantidadEmpleados < 50)
+    if (cantidadEmpleados < 3)
     {
         listaEmpleados[cantidadEmpleados] = _empleado;
         cantidadEmpleados++;

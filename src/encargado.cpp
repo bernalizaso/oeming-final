@@ -20,15 +20,17 @@ void Encargado::trabajar()
     cout << "Estoy gestionando esta sucursal" << endl;
 };
 
-void Encargado::setArea(string _area){
-    area = _area;
-};
-void Encargado::setNombre(string _nombre){
-    nombre = _nombre;
-};
-void Encargado::setSalario(float _salario){
-    salario = _salario;
-};
+ void Encargado::setArea(){
+     
+ };
+ void Encargado::setNombre(){
+     
+ };
+ void Encargado::setSalario(){
+     
+ };
+
+ void Encargado::setNumeroTrabajador(){};
 
 string Encargado::getArea()
 {
